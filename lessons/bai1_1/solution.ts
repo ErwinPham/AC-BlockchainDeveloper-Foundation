@@ -8,7 +8,7 @@ export type Block = {
   current_hash: string;
 };
 
-// 📝 Hàm kiểm tra block hợp lệ
+// Hàm kiểm tra block hợp lệ
 export function isValidBlock(block: Block): boolean {
   // Ghép dữ liệu cần hash
   const data =
